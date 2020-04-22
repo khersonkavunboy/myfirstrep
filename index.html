@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <!-- /Fonts -->
+
+
+    <link rel="stylesheet" href="css/styleforheader.css">
+    <link rel="stylesheet" href="css/StyleSliderMainImage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylecirclebut.css">
+    <link rel="stylesheet" href="css/stylepulsebut.css">
+    <link rel="stylesheet" href="css/stylemenu.css">
+    <link rel="stylesheet" href="css/Fonts.css">
+    <link rel="stylesheet" href="css/StyleforSmallHref.css">
+    <link rel="stylesheet" href="css/styleforfooter.css">
+
+    <link rel="shortcut icon" href="favicon.png" type="images/x-icon">
+    <title>Зіронька</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-5" >
+            <img id="logofile" src="favicon.png" alt="Логотип" >
+            <a href="#" class="homeaddressheader">
+              <h2 class="logoteepheader">Зіронька</h2>
+              <h4 class="logoteepheader">Повірте ви прекрасні</h4>
+            </a>
+          </div>
+          <div class="col-md-3" ></div>
+          <div class="col-md-4">
+            <img id="logofile" src="photo/phone2.png" alt="phone">
+            <h2 class="logoteepheader" >Зв'язатися з нами</h2>
+            <h6 class="telephoneheader">+38 (095)-373-02-09</h6>
+          </div>
+          </div>
+      </div>
+
+  
+<div class="container">
+    <div class="slider">
+      <div class="item">
+          <img src="photo/f1.png" alt="Перший слайд">
+          <div class="slideText"></div>
+      </div>
+  
+      <div class="item">
+          <img src="photo/f2.jpg" alt="Другий слайд">
+          <div class="slideText"></div>
+      </div>
+  
+      <div class="item">
+          <img src="photo/f3.jpg" alt="Третій слайд">
+          <div class="slideText"></div>
+      </div>
+
+      <div class="item">
+        <img src="photo/f4.jpg" alt="Четвертий слайд">
+        <div class="slideText"></div>
+      </div>
+      <a class="prev" onclick="minusSlide()">&#10094;</a>
+      <a class="next" onclick="plusSlide()">&#10095;</a>
+    </div>
+
+     
+  <div class="slider-dots">
+      <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+      <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+      <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+      <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+  </div>
+
+</div>
+
+    <div class="container">
+      <nav id="menu">
+      <li><a class="current-home">Головна</a></li>
+      <li><a href="AboutUs.html">Про нас</a></li> 
+      <li><a href="News.html">Новини</a></li> 
+      <li><a href="Photo.html">Галерея</a></li> 
+      <li><a href="Contact.html">Реєстрація</a></li> 
+      <li><a href="Login.html">Особистий кабінет</a></li> 
+      </nav>
+    </div>
+
+    <div class="container" >
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center"><img src="photo/Vinnik.jpg" alt="Олег Вінник" class="imagephotoforman">
+              <h5 class="titlenamecard">Олег Вінник</h5>
+              <p >Олег Анатолійович Винник - український співак, автор пісень та актор.
+                Перші сольні концерти Винника з програмою «О тебе» відбулися 2013 року в Миколаєві та Ялті.
+                7 жовтня 2013 Олег Винник вирушив у всеукраїнський концертний тур, що завершився в травні 2014 року Великим сольним концертним шоу «Щастя» у Національному палаці мистецтв «Україна». 
+                Рівно сто концертів і сто аншлагів менш ніж за рік.
+              </p>
+            </div>
+              <div class="text-center">
+                <a id="circlebutton" href="News.html#OVinnik">
+                <button class="learn-more">
+                  <div class="circle">
+                    <span class="icon arrow"></span>
+                  </div>
+                  <p class="button-text"><span>Більше...</span></p>
+                </button>
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center"><img src="photo/Leps2.jpg" alt="Григорій Лепс" class="imagephotoforman">
+              <h5 class="titlenamecard">Григорій Лепс</h5>
+              <p >Григорій Вікторович Лепсверідзе - російський артист-вокаліст, заслужений артист РФ.
+                У 1994 році почався запис першого альбому «бережи вас Бог», 
+                який був випущений в 1995 році — і пісня з цього альбому «Наталі».
+                29 вересня Лепс був удостоєний премії «RU.TV 2012 "в номінації" Кращий артист року".
+                У лютому 2014 року відбулися зйомки і прем'єра кліпу на пісню «Господи, дай мені сил».
+              </p>
+            </div>
+              <div class="text-center">
+                <a id="circlebutton" href="News.html#Leps">
+                <button class="learn-more">
+                  <div class="circle">
+                    <span class="icon arrow"></span>
+                  </div>
+                  <p class="button-text"><span>Більше...</span></p>
+                </button>
+              </a>
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="text-center"><img src="photo/Tima.jpg" alt="Тіма Белоруских" class="imagephotoforman">
+                
+              <h5 class="titlenamecard">Тіма Белоруских</h5>
+              <p > білоруський співак та реп-виконавець. 
+                Популярість почав набирати у 2018 році, після публікацї треку "Мокрые кроссы", 
+                який посів 1 місце у "Популярному" соціальної мережі "ВКонтакті".
+                Перший трек був випущений у грудні 2017 року.
+                Офіційна група виконавця «ВКонтакте» налічує 346 тисячі підписників,
+                треки на SoundCloud прослухали 3 млн. разів. А 20 жовтня в Мінську відбувся перший сольний концерт.
+              </p>
+            </div>
+
+              <div class="text-center">
+              <a id="circlebutton" href="News.html#Tima">
+                <button class="learn-more">
+                  <div class="circle">
+                    <span class="icon arrow"></span>
+                  </div>
+                  <p class="button-text"><span>Більше...</span></p>
+                </button>
+              </a>
+            </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+              <img src="photo/Grosu.jpg" alt="Аліна Гросу" class="imagephotoforgirl" >
+              <blockquote class="citata">
+                &#10031;...Ты непобедима, когда ты смеёшься...&#10031;
+              </blockquote>
+          </div>
+          
+
+        <div class="col-sm-4">
+          <div class="marginproperty">
+          <div class="card">
+            <div class="card-body">
+                <h1 class="Alina">Аліна Гросу</h1>
+                <p class="textAlina">
+                  Аліна Михайлівна Гросу — українська естрадна співачка.
+                  Учасниця великих проектів «Пісня року», «Дитяче Євробачення»; 
+                  поп-співачка, виступає як самостійно, так і в співпраці з іншими популярними музикантами.
+                  Аліна Гросу — лауреат I премії «Пісенного вернісажу», Дипломант конкурсу «Ранкова зірка», перша віце-міні-міс України. 
+                  Брала участь у всіх конкурсах «Шлягер року» на рівні з дорослими артистами. Актриса фільмів - 2016 — «Я люблю свого чоловіка» (серіал; виробництво Star Media) — журналістка,
+                  2017 — «Фахівці» — Анфіса Ткаченко.
+                </p>
+                <div class="text-center">
+                <a href="News.html" class="bubble">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Інформація</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </div>
+              
+
+        <div class="col-sm-4">
+          <div class="marginproperty">
+            <div class="card">
+             <div class="card-body">
+              <h1 class="other">Інші виконавці</h1>
+
+              <div class="phototextcardbody">
+                <img src="photo/HN.jpg" alt="HammAli & Navai" class="imgsmall">
+                <div class="conteiner">
+                    <h5 class="titlenamesmallcard">HammAli & Navai</h5>
+                    <p class="titletextsmallcard" >Перша спільна пісня «День в календаре» була записана у червні 2016 року...
+                    </p>
+                  </div>
+              </div>
+              <a class="stylesmallhref" href="News.html#HammAli">Більше...</a>
+
+              <div class="phototextcardbody">
+                <img src="photo/ME.jpg" alt="MiyaGi & Эндшпиль" class="imgsmall">
+                <div class="conteiner">
+                    <h5 class="titlenamesmallcard">MiyaGi & Эндшпиль</h5>
+                    <p class="titletextsmallcard">В 2013 році вийшов спільний альбом під назвою «ЕNaMi».
+                    </p>
+                  </div>
+              </div>
+              <a class="stylesmallhref" href="News.html#ME">Більше...</a>
+
+              
+              <div class="phototextcardbody">
+                <img src="photo/Jony.jpg" alt="JONY" class="imgsmall">
+                <div class="conteiner">
+                    <h5 class="titlenamesmallcard">JONY</h5>
+                    <p class="titletextsmallcard" >Популярність прийшла з піснею «Аллея», де
+                      кліп був викладений лейблом Zhara Music...
+                    </p>
+                  </div>
+              </div>
+              <a class="stylesmallhref" href="News.html#Jony">Більше...</a>
+              
+              <div>
+                <a class="stylesmallhref" style="margin-top: 5px;" href="News.html">Всі новини...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="marginfoot" >
+            <h1 class="logoteepfoot">Зіронька</h1>
+            <h6 class="AllRight">&copy;2020 All Rights Reserved</h6>
+          </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="textphotofoot">
+          <img class="photophone" src="photo/location.png" alt="location"> 
+           <a class="homeaddressfooter" title="Адреса виконавця сайту" href="https://maps.google.com/maps?ll=47.856429,35.096179&z=17&t=m&hl=ru&gl=UA&mapclient=embed&q=ул.%20Трегубенко%2C%2019%20Запорожье%20Запорожская%20область%2069000">
+            <h6 class="addressfoot">Україна, м.Запоріжжя,<br />вул.Трегубенко,19,69001</h6>
+            </a>
+          </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="textphotofoot">
+            <img class="photophone" src="photo/phone.png" alt="phone">
+              <h6 class="telephonefoot">Номер телефону:<br /> +380953730209</h6>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="social twitter">
+              <a href="https://twitter.com/login" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+          </div>
+          <div class="social instagram">
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+          </div>
+          <div class="social facebook">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+          </div>
+          <div class="social skype">
+              <a href="https://secure.skype.com/portal/overview" target="_blank"><i class="fa fa-skype fa-2x"></i></a>
+          </div>
+          <div class="social vk">
+              <a href="https://vk.com/feed" target="_blank"><i class="fa fa-vk fa-2x"></i></a>    
+          </div>
+      </div>
+
+        </div>
+  </div>
+</footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/ChangeSlider.js"></script>
+
+
+
+
+  </body>
+</html>
